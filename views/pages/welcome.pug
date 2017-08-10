@@ -1,9 +1,11 @@
 extends ../layout
 
 block content
-      .inner.cover
-        h1.cover-heading Welcome
+      .inner.cover.welcome-body
+        h1.cover-heading Welcome ${userLogged}
         p.lead
           | We're glad to see you here!.
         p.lead
           //- a.btn.btn-lg.btn-default(href='#') Learn more
+      .user-area
+      include usersection

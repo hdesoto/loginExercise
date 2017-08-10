@@ -9,7 +9,17 @@ body {
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
+#logout:hover{
+  cursor:pointer;
+}
 
+.welcome-body{
+  background: #31782C;
+}
+
+.error-body{
+  background: #EE1212;
+}
 
 .error-template {
   padding: 40px 15px;
@@ -24,12 +34,6 @@ body {
 .error-actions .btn { 
   margin-right:10px;
 }
-
-/*body {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #eee;
-}*/
 
 .form-signin {
   max-width: 330px;
@@ -115,6 +119,7 @@ body {
 .masthead-nav > .active > a:focus {
   color: #fff;
   border-bottom-color: #fff;
+
 }
 
 @media (min-width: 768px) {
