@@ -1,0 +1,21 @@
+{
+  "name": "loginRoutesExercise",
+  "version": "1.0.0",
+  "description": "Simple Login using Express, routes, pug, etc",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "path": "^0.12.7",
+    "pug": "^2.0.0-rc.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
