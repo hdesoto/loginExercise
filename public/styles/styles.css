@@ -21,6 +21,15 @@ body {
   background: #EE1212;
 }
 
+.register-body{
+  background: #283618
+}
+
+.user-section ul{
+  list-style-position: inside;
+}
+
+/*
 .error-template {
   padding: 40px 15px;
   text-align: center;
@@ -33,8 +42,12 @@ body {
 
 .error-actions .btn { 
   margin-right:10px;
-}
+}*/
 
+
+/*
+* LOGIN
+*/
 .form-signin {
   max-width: 330px;
   padding: 15px;
@@ -76,6 +89,12 @@ body {
   border-top-right-radius: 0;
 }
 
+
+
+/*
+* WELCOME
+*/
+
 .cover {
   padding: 0 20px;
 }
@@ -86,7 +105,7 @@ body {
 
 
 /*
- * Header
+ * HEADER
  */
 .masthead-brand {
   margin-top: 10px;
@@ -136,3 +155,47 @@ body {
   padding: 30px;
 }
 
+
+/*
+* REGISTER
+*/
+.form-register {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form-register .form-register-heading,
+.form-register .checkbox {
+  margin-bottom: 10px;
+}
+
+.form-register .checkbox {
+  font-weight: normal;
+}
+
+.form-register .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-register .form-control:focus {
+  z-index: 2;
+}
+
+.form-register input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-register input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
